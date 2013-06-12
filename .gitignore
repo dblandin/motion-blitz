@@ -1,0 +1,25 @@
+# Build
+build
+bin/
+.sass-cache/
+.dat*
+*.gem
+
+# Xcode
+resources/*.nib
+resources/*.momd
+resources/*.storyboardc
+
+# Rubygems
+vendor/ruby
+vendor/Pods
+.bundle
+
+# OSX
+.DS_Store
+
+# Development
+.repl_history
+tags
+TODO*
+.env
