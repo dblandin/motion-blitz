@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name          = 'motion-blitz'
-  gem.version       = '0.0.1'
+  gem.version       = '1.0.0'
   gem.authors       = ['Devon Blandin']
   gem.email         = 'dblandin@gmail.com'
   gem.description   = %q{RubyMotion wrapper for SVProgressHUD}
