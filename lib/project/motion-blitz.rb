@@ -52,11 +52,11 @@ module Motion
         hud_class.showErrorWithStatus(message)
       end
 
+      private
+
       def hud_class
         SVProgressHUD
       end
-
-      private
 
       def check_mask(mask)
         raise ArgumentError, "mask must be one of #{MASKS.keys}" unless MASKS.keys.include?(mask)

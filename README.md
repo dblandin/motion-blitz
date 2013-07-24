@@ -5,6 +5,8 @@
 1. Shine in a bright but brief, sudden, or intermittent way
 2. Control the display of temporary messages via SVProgressHUD
 
+![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)
+
 ## Usage
 
 ``` ruby
