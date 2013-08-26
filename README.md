@@ -5,6 +5,9 @@
 1. Shine in a bright but brief, sudden, or intermittent way
 2. Control the display of temporary messages via SVProgressHUD
 
+[![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz)
+[![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz)
+
 ![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)
 
 ## Usage
