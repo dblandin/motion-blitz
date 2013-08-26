@@ -8,6 +8,8 @@
 [![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz)
 [![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz)
 
+motion-blitz's initial development was sponsored by [dscout](https://dscout.com). Many thanks to them!
+
 ![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)
 
 ## Usage
@@ -70,7 +72,9 @@ and require motion-blitz in your Rakefile
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-## Thanks to
+## Thanks
 [Sam Vermette](https://github.com/samvermette) for [SVProgressHUD](https://github.com/samvermette/SVProgressHUD)
 
 [Parker Selbert](https://github.com/sorentwo) for the [Norweigan-inspired name](https://github.com/dblandin/motion-blitz/blob/master/lib/project/motion-blitz.rb#L2)
+
+[dscout](https://dscout.com) - for their sponsorship
