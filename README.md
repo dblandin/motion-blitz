@@ -1,14 +1,11 @@
-# motion-blitz
+# motion-blitz [![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz) [![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz) ![Analytics](https://d2weczhvl823v0.cloudfront.net/dblandin/motion-blitz/trend.png)
 
 ### blitz (fl•ash), verb
 
 1. Shine in a bright but brief, sudden, or intermittent way
 2. Control the display of temporary messages via SVProgressHUD
 
-[![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz)
-[![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz)
-
-motion-blitz's initial development was sponsored by [dscout](https://dscout.com). Many thanks to them!
+__motion-blitz__'s initial development was sponsored by [dscout](https://dscout.com). Many thanks to them!
 
 ![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)
 
@@ -40,29 +37,39 @@ Notifier.error('Whoops!')
 
 ### Masks
 
-    :none     # allow user interactions, don't dim background UI (default)
-    :clear    # disable user interactions, don't dim background UI
-    :black    # disable user interactions, dim background UI with 50% translucent black
-    :gradient # disable user interactions, dim background UI with translucent radial gradient (a-la-alertView)
+``` ruby
+:none     # allow user interactions, don't dim background UI (default)
+:clear    # disable user interactions, don't dim background UI
+:black    # disable user interactions, dim background UI with 50% translucent black
+:gradient # disable user interactions, dim background UI with translucent radial gradient (a-la-alertView)
+```
 
 ## Setup
 
 If you're using Bundler, add this line to your app's Gemfile:
 
-    gem 'motion-blitz'
+``` ruby
+gem 'motion-blitz'
+```
 
 and then run:
 
-    $ bundle install
+``` zsh
+$ bundle install
+```
 
 Or install it yourself with:
 
-    $ gem install motion-blitz
+``` zsh
+$ gem install motion-blitz
+```
 
 and require motion-blitz in your Rakefile
 
-    require 'rubygems'
-    require 'motion-blitz'
+``` ruby
+require 'rubygems'
+require 'motion-blitz'
+```
 
 ## Contributing
 
@@ -73,8 +80,7 @@ and require motion-blitz in your Rakefile
 5. Create new Pull Request
 
 ## Thanks
-[Sam Vermette](https://github.com/samvermette) for [SVProgressHUD](https://github.com/samvermette/SVProgressHUD)
 
-[Parker Selbert](https://github.com/sorentwo) for the [Norweigan-inspired name](https://github.com/dblandin/motion-blitz/blob/master/lib/project/motion-blitz.rb#L2)
-
-[dscout](https://dscout.com) - for their sponsorship
+* [Sam Vermette](https://github.com/samvermette) for [SVProgressHUD](https://github.com/samvermette/SVProgressHUD)
+* [Parker Selbert](https://github.com/sorentwo) for the [Norweigan-inspired name](https://github.com/dblandin/motion-blitz/blob/master/lib/project/motion-blitz.rb#L2)
+* [dscout](https://dscout.com) - for their sponsorship
