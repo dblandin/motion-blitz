@@ -1,4 +1,4 @@
-# motion-blitz [![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz) [![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz) ![Analytics](https://d2weczhvl823v0.cloudfront.net/dblandin/motion-blitz/trend.png)
+# motion-blitz [![Gem Version](https://badge.fury.io/rb/motion-blitz.png)](http://badge.fury.io/rb/motion-blitz) [![Code Climate](https://codeclimate.com/github/dblandin/motion-blitz.png)](https://codeclimate.com/github/dblandin/motion-blitz) [![Analytics](https://d2weczhvl823v0.cloudfront.net/dblandin/motion-blitz/trend.png)](#motion-blitz---)
 
 ### blitz (fl•ash), verb
 
@@ -7,7 +7,7 @@
 
 __motion-blitz__'s initial development was sponsored by [dscout](https://dscout.com). Many thanks to them!
 
-![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)
+[![Success](https://github.com/dblandin/motion-blitz/blob/master/img/success.png?raw=true)](#blitz-flash-verb)
 
 ## Usage
 
