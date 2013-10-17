@@ -48,28 +48,36 @@ Notifier.error('Whoops!')
 
 If you're using Bundler, add this line to your app's Gemfile:
 
-``` ruby
+```ruby
 gem 'motion-blitz'
 ```
 
 and then run:
 
-``` zsh
+```
 $ bundle install
 ```
 
 Or install it yourself with:
 
-``` zsh
+```
 $ gem install motion-blitz
 ```
 
-and require motion-blitz in your Rakefile
+and require motion-blitz in your Rakefile:
 
-``` ruby
+```ruby
 require 'rubygems'
 require 'motion-blitz'
 ```
+
+## Dependencies
+
+motion-blitz depends on the SVProgressHUD CocoaPod.
+
+You don't have to add SVProgressHUD to your Rakefile (motion-blitz handles that
+dependency for you) but you need to run `$ rake pod:install` to download and
+install it.
 
 ## Contributing
 
