@@ -1,7 +1,6 @@
 class MotionBlitzDemo < UITableView
-  def init
+  def initWithFrame(frame, style: style)
     super.tap do |table_view|
-      table_view.initWithFrame(CGRectZero, style: UITableViewStyleGrouped)
       table_view.dataSource = manager
       table_view.delegate   = manager
 
@@ -12,6 +11,6 @@ class MotionBlitzDemo < UITableView
   private
 
   def manager
-    @_manager ||= MotionBlitzDemoManager.new
+    @manager ||= MotionBlitzDemoManager.new
   end
 end

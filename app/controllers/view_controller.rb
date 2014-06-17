@@ -8,8 +8,6 @@ class ViewController < UIViewController
   end
 
   def motion_blitz_demo
-    MotionBlitzDemo.alloc.init.tap do |demo|
-      demo.frame = view.bounds
-    end
+    MotionBlitzDemo.alloc.initWithFrame(view.bounds, style: UITableViewStyleGrouped)
   end
 end
