@@ -10,6 +10,6 @@ Motion::Project::App.setup do |app|
   app.name = 'motion-blitz'
 
   app.pods do
-    pod 'SVProgressHUD', '~> 0.9'
+    pod 'SVProgressHUD', '~> 1.0'
   end
 end
