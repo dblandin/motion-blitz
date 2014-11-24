@@ -32,8 +32,8 @@ module Motion
         end
       end
 
-      def loading
-        show('Loading...')
+      def loading(mask = :none)
+        show('Loading...', mask)
       end
 
       def dismiss
