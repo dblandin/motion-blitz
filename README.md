@@ -20,6 +20,7 @@ Notifier.show(:black)
 Notifier.show('Hold on!', :gradient)
 
 Notifier.loading # 'Loading...'
+Notifier.loading(:black)
 
 Notifier.progress(0.5)
 Notifier.progress(0.8, 'Almost Done!')
